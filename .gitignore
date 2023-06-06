@@ -1,7 +1,7 @@
 datasets
 
-# Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,macos
+# Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,visualstudiocode,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,visualstudiocode,macos
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -219,4 +219,23 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-# End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,macos
+### VisualStudioCode ###
+.vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+# !.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,visualstudiocode,macos
